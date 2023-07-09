@@ -21,6 +21,8 @@ body {
 
 .big-container {
     display:flex;
+    flex-direction: column;
+    padding: 20px;
     justify-content: center;
     width: 889px;
     height: 841px;
@@ -31,11 +33,99 @@ body {
 
 }
 
+.title-container {
+    margin-top: 10px;
+    /*border: 1px solid white;*/
+    display: flex;
+    justify-content: center;
+    height: 65px;
+}
+
 .title {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     width: 331px;
     height: 59px;
     flex-shrink: 0;
     border-radius: 20px;
     background: #540097;
     box-shadow: 0px 4px 15px 2px #FFF5F5 inset;
+}
+
+.title-text {
+    display: flex;
+    /*width: 322px;
+    height: 46px;*/
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-shadow: 0px 4px 10px 0px rgba(241, 241, 241, 0.67);
+    font-family: Quantico;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button {
+    margin: 10px;
+    width: 143px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #DA9EFF;
+    /* Buttons - Lavender */
+    box-shadow: 0px 4px 16px -1px #FFF inset, 0px 4px 15px -1px rgba(39, 0, 0, 0.99);
+    color: #150000;
+    text-shadow: 0px 4px 5px 0px #F1F1F1;
+    font-family: Quantico;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.button-container {
+    margin-top: 20px;
+    /*border: 1px solid white;*/
+    display: flex;
+    justify-content: center;
+}
+
+.dimension-container {
+    /*border: 1px solid white;*/
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5px;
+ 
+}
+
+.db {
+    margin: 10px;
+    background: #7009AF;
+    width: 100px;
+    box-shadow: 0px 4px 16px -1px #FFF inset, 0px 4px 15px -1px rgba(39, 0, 0, 0.99);
+    color: #150000;
+    text-shadow: 0px 4px 5px 0px #F1F1F1;
+    font-family: Quantico;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 20px;
+
+}
+
+.sketchpad {
+    width: 762px;
+    height: 576px;
+    flex-shrink: 0;
+    background: #FFF;
+    margin: 0 auto;
+    margin-top: 10px;
+
 }
