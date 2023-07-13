@@ -16,6 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 1024px;
+    flex-direction: column;
 
 }
 
@@ -149,4 +150,21 @@ body {
     flex-shrink: 0;
     border-radius: 0px;
     border: 0.5px solid white;
+}
+
+.display-container {
+    width: 889px;
+    height: 50px;
+    background:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: black;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px -1px #FFF inset, 0px 4px 15px -1px rgba(39, 0, 0, 0.99);
+    border: white solid 2px;
+    text-shadow: 0px 4px 5px 0px #F1F1F1;
+    font-family: Quantico;
+    margin-top: 15px;
 }
