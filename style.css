@@ -74,10 +74,11 @@ body {
     height: 36px;
     flex-shrink: 0;
     border-radius: 20px;
-    background: #DA9EFF;
+    background: #7009AF;
+    /*background: #DA9EFF;*/
     /* Buttons - Lavender */
     box-shadow: 0px 4px 16px -1px #FFF inset, 0px 4px 15px -1px rgba(39, 0, 0, 0.99);
-    color: #150000;
+    color: #ffffff;
     text-shadow: 0px 4px 5px 0px #F1F1F1;
     font-family: Quantico;
     font-size: 15px;
@@ -104,7 +105,8 @@ body {
 
 .db {
     margin: 10px;
-    background: #7009AF;
+    background: #DA9EFF;
+    /*background: #7009AF;*/
     width: 100px;
     box-shadow: 0px 4px 16px -1px #FFF inset, 0px 4px 15px -1px rgba(39, 0, 0, 0.99);
     color: #150000;
@@ -127,5 +129,16 @@ body {
     background: #FFF;
     margin: 0 auto;
     margin-top: 10px;
+    display:grid;
 
+}
+
+input {
+    font-size: 15px;
+    text-align: center;
+    font-family: Quantico;
+    margin:10px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 20px;
 }
