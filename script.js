@@ -1,17 +1,14 @@
 // cashing the dom :
-const sketchpad_div = document.querySelector('.sketchpad')
-const rainbow = document.getElementById('rainbow')
-const darken = document.getElementById('darken')
-const clear = document.getElementById('clear')
-const color = document.getElementById('color')
-const size = document.getElementById('size')
+const sketchpad_div = document.querySelector('.sketchpad');
+const rainbow = document.getElementById('rainbow');
+const darken = document.getElementById('darken');
+const clear = document.getElementById('clear');
+const color = document.getElementById('color');
+const colorInput = document.getElementById('colorinput');
+const size = document.getElementById('size');
+hexInput = document.querySelector('#hex');
 let setcolor = 'black';
-let click = true
-// create function for creating grid
-
-// create function for each setting
-
-// create function for actual drawing 
+let click = true;
 
 
 
