@@ -168,3 +168,13 @@ body {
     font-family: Quantico;
     margin-top: 15px;
 }
+
+#footer {
+    justify-content: center;
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    font-family: Quantico;
+    margin-top: 10px;
+    padding: 1em;
+}
